@@ -1,5 +1,7 @@
   
-  *{
+     /* styling over all body page of the site */
+ 
+ *{
 
     padding: 0;
     margin: 0;
@@ -15,13 +17,16 @@
   font-family: monospace;
  }
  
+
+ /* styling nav bar Disktop screen size */
   nav{
     background:black;
     height:100px;
     width:100%;
   }
 
-   nav img{
+  /* styling logo img on the nav bar Disktop screen size */
+  nav img{
     height:70px;
     padding-top:1px;
     padding-left:90px;
@@ -29,6 +34,7 @@
    }
 
 
+  /* styling logo text on the nav bar Disktop screen size  */
    label.logo{
  
     font-size:20px;
@@ -37,8 +43,8 @@
    font-weight: bold;
    }
  
-
-    
+  
+ /* styling nav bar links Distop size  */
   nav ul{
     float:right;
     margin-right:50px;
@@ -62,8 +68,8 @@
   
   }
 
- nav ul li:hover{
-  background:rgb(3, 3, 100);
+ nav ul li a:hover{
+  color:brown;
  }
 
 nav ul li ul {
@@ -99,6 +105,8 @@ nav ul li ul li a {
   text-decoration: none;
 }
 
+/* styling checkbox  */
+
 .checkbtn{
 
   font-size: 30px;
@@ -114,19 +122,281 @@ nav ul li ul li a {
   display:none;
 
 }
+ /* End styling header elementsthe nav bar Desktop screen size  */
 
+
+
+/* styling main  elements Review page Desktop screen size  */
+
+
+   #image img{
+
+     width:100%;
+     margin: 0px;
+     padding: 0px;
+     height: 100%;
+   }
+
+
+    .introduction {
+      width: 100%;
+      height:900px;
+      padding:0px;
+      margin:0px;
+      background-color:rgba(4, 2, 36, 0.877);
+      color:whitesmoke;
+    }
+    #intro h3{
+       text-align:left;
+       text-decoration:none;
+       font-size: 20px;
+       font-family: cursive;
+       padding-top:30px;
+       margin-left: 40px; 
+
+    }
+    #intro p{
+       text-align:left;
+       text-decoration:none;
+       font-size:18px;
+       color:rgba(255, 255, 255, 0.904);
+       line-height:30px;
+       margin-right:50px;
+       font-family: monospace;
+
+    }
+
+    #background h3{
+        text-align:left;
+        text-decoration:none;
+        font-size: 20px;
+        font-family: cursive;
+        padding-top:10px;
+        margin-left: 40px;  
+        padding-top:15px;   
+    }
+
+    #background p{
+      margin-left: 30px;
+      margin-right: 30px;
+      font-family: monospace;
+      font-size:18px;
+       text-decoration:none;
+       text-align:left;
+       line-height:30px;
+       padding-top:15px;
+
+    }
+     /*  End styling main elements Review page Desktop screen size  */ 
+    
+
+
+
+
+
+     /* styling  elements contact page Desktop screen size  */
+
+      #contactform {
+        max-width:100%;
+        background-image: url("images/glasgow2.jpg");
+        height:700px;
+        background-repeat: no-repeat;
+
+      }
+
+      #contactform div {
+        background-color: black;
+         border: solid;
+        
+        
+
+
+      }
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* styling footer elements Desktop screen size  */
+
+footer{
+ color: whitesmoke;
+ text-decoration: none;
+ background-color:rgb(40,40,40);
+}
+
+/* styling Wrapper div on footer elements Desktop screen size  */
+
+footer #line{
+   width:70%;
+   background:white;
+    position:relative;
+    margin-left: 40px;
+   
+    }
+
+#wrapper{
+  background:rgb(40,40,40);
+  height:300px;
+  width:100%;
+ }
+ 
+  .socialmedia img{
+  height:40px;
+  margin:20px;
+  position: relative;
+
+
+  }
+
+ /* styling quicklins Desktop screen size  */
+
+.quicklinks{
+float:left;
+margin-top:19px;
+width:30%;
+margin-left:60px;
+position: relative;
+}
+.quicklinks ul{
+list-style: none;
+
+}
+.quicklinks ul li{
+
+ padding-top: 5px;
+ line-height:30px;
+}
+
+.quicklinks ul li a{
+ color: whitesmoke;
+}
+
+/* styling contacts elements on the footer Desktop screen size  */
+ 
+.wrapper2 h2{
+  text-align: center;
+}
+ .wrapper2{
+
+   float:left;
+   margin-top:19px;
+   width:50%;
+   margin-left:170px;
+   position: relative;
+
+ }
+
+ .wrapper2 #maurius{
+    margin-top:20px;
+    margin-left:60px;
+    height: 150px;
+    width: 200px;
+    float: left;
+
+ }
+  .wrapper2  #maurius h3{
+
+    margin-bottom: 10px;
+  }
+    
+
+ .wrapper2 #glasgow{
+  margin-top:20px;
+  height: 150px;
+  width: 200px;
+  float: left;
+  margin-left:30px;
+
+}
+
+.wrapper2  #glasgow h3{
+    
+  margin-bottom: 10px;
+}
+
+.wrapper2 #oman{
+ height: 150px;
+ width: 200px;
+ float: left;
+ margin-top: 20px;
+ margin-left:30px; 
+}
+.wrapper2  #oman h3{
+    
+margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Screen size of 960px */
 @media (max-width: 960px){
+  
+  /* styling logo text on the nav bar screen size 960px */
   label.logo{
     font-size:15px;
     padding-left:10px;
   }
 
+  /*syling logo img on the nav bar screen size 960px */
   img{
     padding-right:40px;
     padding:1%;
     padding-top:20%;
   }
-  
+
+  /* styling nav bar links screen size 960px */
   nav ul li a{
     font-size:15px;
 
@@ -135,15 +405,82 @@ nav ul li ul li a {
   nav ul li ul li a {
     font-size:15px;
   }
+    
+/*  End of styling header elements of screen size 960px   */
+
+
+/*   styling footer elements of screen size 960px */
+
+ 
+
+    #wrapper{
+
+      border:solid;
+      height: 800px;
+
+    }
+
+     #wrapper #line{
+
+      width:40%;
+     }
+
+    .quicklinks{
+
+      border:solid;
+
+      display: inline-block;
+      margin-left:5px;
+
+    }
+
+     .wrapper2{
+       border:solid;
+       display: inline-block;
+     }
+
+
+
+/*   styling introduction/background section elements of screen size 960px */
 
   
+.introduction{
+
+  height:2100px;
+
+}
+
+.socialmedia{
+  margin-left:60px;
+  margin-top:0px;
+}
+   
+.socialmedia img{
+  height:140px;
+  margin:10px;    
+}
+
+
+}
+
+
+
+
+
+
+
+
+/* Screen size of 750px*/
+  
   @media (max-width: 750px){
+      /* styling checkbox screen size 760px  */
 
      .checkbtn{
        display:block;
 
      }
 
+    /* styling nav bar links screen size 760px */
      nav  ul{
        position:fixed;
        width:100%;
@@ -152,15 +489,11 @@ nav ul li ul li a {
        background:rgb(7, 8, 82);
        height: 100vh;
        left:-100%;
-       top:100px
-
-     }
-
-
-     nav ul {
-
+       top:100px;
       display: block;
      }
+
+
      nav ul li{
 
       display: block;
@@ -181,16 +514,133 @@ nav ul li ul li a {
       left:40%; 
      }
 
-
      #check:checked ~ ul{
        left:0;
 
      }
+      /* End of styling logo text on the nav bar  */
+
+       main img{
+        max-width: 100%;
+       }
+
+
+
+       /* styling footer  screen size 760px */
       
+      
+       
+       #wrapper{
+      background: rgb(40, 40, 40);
+      height:600px;
+      max-width: 100%;
+      margin:0px;
+       padding:0px;
+       }
+       
+       #wrapper #line{
+        width:80%;
+        background-color: white;
+        float: none;
+        margin-top:300px;
+        margin-left:40px;
+      
+      
+          
+      }
+
+     #wrapper img{
+        float:right;
+        margin-right:10px;
+       height:150px;
+       }
+       
+
+     /* styling quicklinks screen size 760px */
+    .quicklinks{
+      float: left;
+    }
+     .quicklinks ul {
+       margin-top:7%;
+     }
+
+     .quicklinks h2{
+      margin-top:0px;
+      
+     }
+     .quicklinks ul li a:hover{
+       color:maroon;
+     }
+      
+      /*  End of styling quick Links of footer screen size 760px */ 
+
+
+        /* styling footer contact section  screen size 760px  */
      
+      .wrapper2{
+        float:left;
+        width:50%;
+        margin-left:30px;
+        margin-top:17px;
+
+      }
       
+      .wrapper2 h2{
+      text-align: left;
+      margin-left:45px;
+
+      }
+      
+       .wrapper2 h3{
+         text-align: left;
+         font-size: 15px;
+         font-family: cursive;
+       }
+
+
+       .wrapper2 #maurius{
+        margin-top:10px;
+        display: inline-block;
+        margin-left:50px;
+         height: 110px;
+         width:180px;
+         font-size: 15px;
+         margin:20px;
+          
+        }
+      .wrapper2 #glasgow{
+      margin-top:10px;
+      display: inline-block;
+      margin-left:50px;
+      height: 110px;
+      width:180px;
+      font-size: 15px;
+      margin: 20px;
+     }
+      .wrapper2 #oman{
+      display: inline-block;
+      margin-left:50px;
+      height: 110px;
+      width:180px;
+      font-size: 15px;
+      margin:20px;
     }
 
+    .introduction{
+
+      height:2100px;
+    
+    }
+    
+    .socialmedia{
+      margin-left:60px;
+      margin-top:0px;
+    }
+       
+    .socialmedia img{
+      height:140px;
+      margin:10px;    
+    }
+    
   }
-    
-    
+     
